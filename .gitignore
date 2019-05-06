@@ -2,5 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/.vs/FunWithGUI/v16/.suo
 /.vs/FunWithGUI/v16/Server/sqlite3/**
 /FunWithGUI/obj/Debug/**
