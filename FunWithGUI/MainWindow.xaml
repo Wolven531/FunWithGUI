@@ -20,8 +20,8 @@
         </Label>
         <Border BorderBrush="Black" BorderThickness="1" Margin="10,85,10,10">
             <Grid>
-                <Label Cursor="None" Content="Acronym" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center" Height="25"/>
-                <Button Content="Run Tests" Width="75" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" Margin="65,0,0,0" Height="25" Cursor="Arrow"/>
+                <Label Content="Acronym" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center" Height="25"/>
+                <Button Content="Run Tests" Width="75" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" Margin="65,0,0,0" Height="25" Cursor="Arrow" AutomationProperties.Name="btn_RunAcronymTests" Click="OnClick_RunAcronymTests"/>
             </Grid>
         </Border>
     </Grid>
