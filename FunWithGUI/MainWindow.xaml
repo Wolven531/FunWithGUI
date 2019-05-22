@@ -22,6 +22,7 @@
             <Grid>
                 <Label Content="Acronym" HorizontalAlignment="Left" VerticalAlignment="Top" VerticalContentAlignment="Center" Height="25"/>
                 <Button Content="Run Tests" Width="75" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="1" Margin="65,0,0,0" Height="25" Cursor="Arrow" AutomationProperties.Name="btn_RunAcronymTests" Click="OnClick_RunAcronymTests"/>
+                <ProgressBar VerticalAlignment="Top" Height="25" MinWidth="100" Margin="155,0,10,0" x:Name="AcroProgressBar" Minimum="0" Maximum="100" />
             </Grid>
         </Border>
     </Grid>
