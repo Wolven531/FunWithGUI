@@ -28,6 +28,7 @@ namespace FunWithGUI
         private void OnClick_RunAcronymTests(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Running Acronym tests...");
+            AcroProgressBar.Value = 50;
         }
     }
 }
